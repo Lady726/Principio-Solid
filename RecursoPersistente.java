@@ -46,3 +46,16 @@ public class Configuracion{
         i.next().save();
     }
 }
+public class Main {
+    public static void main(String[] args) {
+        Configuracion configuracion = new Configuracion();
+        
+        // Cargar configuración
+        System.out.println("Cargando configuración:");
+        configuracion.cargarConfiguracion();
+        
+        // Salvar configuración
+        System.out.println("\nSalvando configuración:");
+        configuracion.salvarConfiguracion();
+    }
+}
