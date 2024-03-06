@@ -25,10 +25,10 @@ public class ConfiguracionUsuario implements RecursoPersistente {
 }
 public class ConfiguracionHoraria implements RecursoPersistente{
     public void load(){
-        System.out.println("Configuracion horaria cargada");
+        System.out.println("Configuracion horaria cargada.");
     }
     public void save(){
-        System.out.println("ERROR!!!, La hora no se puede almacenar, es solo de lectura");
+        System.out.println("ERROR!!!, La hora no se puede almacenar, es solo de lectura.");
     }
 }
 public class Configuracion{
